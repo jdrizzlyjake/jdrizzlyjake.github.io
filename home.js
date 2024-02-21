@@ -1,4 +1,4 @@
 console.log('JavaScript is linked and working!');
 function showAlert() {
-    alert("pp");
+    alert("This is a test alert!");
 }
