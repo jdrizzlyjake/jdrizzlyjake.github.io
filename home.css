@@ -20,8 +20,10 @@ a:visited {
 a:hover {
     color:rgb(64, 127, 195);
 }
-.homeAlertButton {
-    color: red;
-    border: black;
+
+.box {
+    color: rgb(230, 156, 20);
+    border-width: 2px;
+    
 }
 }
