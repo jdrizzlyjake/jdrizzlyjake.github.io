@@ -22,8 +22,8 @@ a:hover {
 }
 
 .box {
-    color: rgb(230, 156, 20);
+    color: rgb(0, 0, 0);
     border-width: 2px;
-    
+    background-color: rgb(218, 222, 33);
 }
 }
