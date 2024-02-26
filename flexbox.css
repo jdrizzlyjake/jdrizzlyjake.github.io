@@ -1,0 +1,23 @@
+.flex-one {
+    display: flex;
+    justify-content: center; /* Center flex items horizontally */
+    align-items: center; /* Center flex items vertically */
+    flex-direction:column;
+    height: 200px; /* Specify height */
+    }
+
+.flex-two {
+    
+    }
+
+.flex-item1 {
+    margin: 5px;
+    padding: 30px;
+    background: lightgray; /* Background color for visibility */
+    }
+
+.flex-item2 {
+    margin: 5px;
+    padding: 30px;
+    background: rgb(51, 247, 7); /* Background color for visibility */
+    }
