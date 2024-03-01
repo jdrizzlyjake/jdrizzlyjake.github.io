@@ -4,20 +4,44 @@
     align-items: center; /* Center flex items vertically */
     flex-direction:column;
     height: 200px; /* Specify height */
-    }
+}
 
 .flex-two {
-    
-    }
+    display: flex;
+}
+.flex-two div{
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1 1 0%;
+}
+.flex-two .two {
+    flex: 2 1 0%;
+  }
 
 .flex-item1 {
     margin: 5px;
     padding: 30px;
     background: lightgray; /* Background color for visibility */
-    }
+}
 
-.flex-item2 {
+.flex-Here {
     margin: 5px;
     padding: 30px;
     background: rgb(51, 247, 7); /* Background color for visibility */
-    }
+}
+.flex-Are {
+    margin: 5px;
+    padding: 30px;
+    background: rgb(51, 247, 7); /* Background color for visibility */
+} 
+.flex-More {
+    margin: 5px;
+    padding: 30px;
+    background: rgb(51, 247, 7); /* Background color for visibility */
+}
+.flex-Tests {
+    margin: 5px;
+    padding: 30px;
+    background: rgb(51, 247, 7); /* Background color for visibility */
+}
