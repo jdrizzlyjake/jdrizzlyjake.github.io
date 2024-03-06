@@ -4,8 +4,8 @@
     align-items: center; /* Center flex items vertically */
     flex-direction:column;
     height: 200px; /* Specify height */
+    gap:3px;
 }
-
 .flex-two {
     display: flex;
 }
@@ -22,8 +22,8 @@
     display: flex;
     background: peachpuff;
     border: 4px solid brown;
-    height: 100px;
-    flex-direction: row;
+    flex-direction: column;
+    gap:5px;
 }
 
 .flex-item1 {
