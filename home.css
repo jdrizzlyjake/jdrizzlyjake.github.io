@@ -8,8 +8,9 @@ body {
     border: 4px solid black;
 }
 h1 {
-    color:rgb(89, 206, 212);
+     display:flexbox block; color:rgb(89, 206, 212);
     font-size: 60px;
+    
 }
 a:link {
     color:rgb(89, 206, 212);
@@ -19,6 +20,9 @@ a:visited {
 }
 a:hover {
     color:rgb(64, 127, 195);
+    font-size: 18px;
+    transition: .1s;
+    
 }
 
 .box {
