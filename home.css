@@ -22,7 +22,6 @@ a:hover {
     color:rgb(64, 127, 195);
     font-size: 18px;
     transition: .1s;
-    
 }
 .sidebar {
     height: 100%;
@@ -33,20 +32,24 @@ a:hover {
     background-color: #333;
     padding-top: 20px;
     border: 3px;
-    border-color:black;
+    border-color:rgb(0, 0, 0);
 }
 .sidebar a {
     padding: 10px 15px;
     text-decoration: none;
     font-size: 18px;
     color: #fff;
-    display: block;
+    display:flex;
     }
 .sidebar a:hover {
     background-color: #444;
+    display: block;
+    transition: .3s;
 }
 .sidebar header {
     font-size:40px;
+    display:block;
+    color:#fff;
 }
 .box {
     color: rgb(0, 0, 0);
