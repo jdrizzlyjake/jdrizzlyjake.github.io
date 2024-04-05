@@ -13,13 +13,15 @@
 <h1>
     All About Me!
 </h1>
-<div class="sidebar">
+<div class="sidebar" style="display:none" id="sidebar">
     <header>Navigate</header>
+    <button onclick="close_sidebar()" class="sidebar_close_button">Close &times;</button>
     <a href="index.html">Home</a>
     <a href="discgolf.html">Disc Golf</a>
     <a href="rocketleague.html">Rocket League</a>
     <a href="flexbox.html">Flex Box Practice</a>
 </div>
+<button class="sidebar_open_button" id="sidebar_open_button" onclick="open_sidebar()">▶</button>
 <div class="directory">
     <h2>
         A directory for the various parts of my life.
@@ -30,3 +32,16 @@
         </div>
     </p>
 </div>
+<script>
+    function open_sidebar() {
+    document.getElementById("sidebar").style.display = "block";
+    document.getElementById("sidebar_open_button").style.display="none";
+  }
+  
+  function close_sidebar() {
+    document.getElementById("sidebar").style.display = "none";
+    document.getElementById("sidebar_open_button").style.display="block";
+  }
+</script>
+</body>
+</html>
