@@ -54,8 +54,13 @@ a:hover {
     color: rgb(0, 0, 0);
     border-width: 2px;
     background-color: rgb(218, 222, 33);
-}
+    cursor: pointer;
 }
 .sidebar_open_button {
-    color: rgb(24, 68, 213)
+    color: rgb(24, 68, 213);
+    position:fixed;
+    cursor: pointer;
+    left:0;
+    top:50%;
+}
 }
