@@ -40,6 +40,14 @@ a:hover {
     color: #fff;
     display:flex;
     }
+    .sidebar button {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #fff;
+        display:flex;
+        border:#333333;
+        }
 .sidebar a:hover {
     background-color: #444;
     display: block;
@@ -63,4 +71,8 @@ a:hover {
     left:0;
     top:50%;
 }
+}
+.sidebar_close_button {
+    cursor: pointer;
+    background-color:#333333;
 }
