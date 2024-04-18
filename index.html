@@ -1,25 +1,27 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
+<!DOCTYPE html>
+<html>
+<head>
     <link rel="stylesheet"
     type="text/css" href="home.css">
     <link rel="stylesheet"
     type="text/css" href="discgolf.css">
     <script src="home.js"></script>
-<title>If you see me say hi</title> 
-</head> 
-<body> 
+<title>If you see me say hi</title>
+</head>
+<body>
     <button class="sidebar_open_button" id="sidebar_open_button" onclick="open_sidebar()">▶</button>
 <h1>
-    Project is so epic and cool
+    All about me!
 </h1>
 <div class="sidebar" style="display:none" id="sidebar">
     <header>Navigate</header>
-    <button onclick="close_sidebar()" class="sidebar_close_button">Close</button>
-    <a href="index.html">Home</a>
-    <a href="discgolf.html">Disc Golf</a>
-    <a href="rocketleague.html">Rocket League</a>
-    <a href="flexbox.html">Flex Box Practice</a>
+    <a href="javascript:javascript:void(0)" onClick="javascript:close_sidebar()" class="sidebar_close">Close</a>
+    <div class="sidebar_links">
+        <a href="index.html">Home</a>
+        <a href="discgolf.html">Disc Golf</a>
+        <a href="rocketleague.html">Rocket League</a>
+        <a href="flexbox.html">Flex Box Practice</a>
+    </div>
 </div>
 <div class="directory">
     <h2>
@@ -36,7 +38,7 @@
     document.getElementById("sidebar").style.display = "block";
     document.getElementById("sidebar_open_button").style.display="none";
   }
-  
+ 
   function close_sidebar() {
     document.getElementById("sidebar").style.display = "none";
     document.getElementById("sidebar_open_button").style.display = "block";

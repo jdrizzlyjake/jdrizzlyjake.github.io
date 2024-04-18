@@ -1,78 +1,82 @@
-html{
+html {
     text-align: center;
-body {
-    background-image: linear-gradient(to left,green,purple);
-    
-}
-.img1{
-    border: 4px solid black;
-}
-h1 {
-     display:flexbox block; color:rgb(89, 206, 212);
-    font-size: 60px;
-    
-}
-a:link {
-    color:rgb(89, 206, 212);
-}
-a:visited {
-    color:rgb(89, 206, 212);
-}
-a:hover {
-    color:rgb(64, 127, 195);
-    font-size: 18px;
-    transition: .1s;
-}
-.sidebar {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #333333;
-    padding-top: 20px;
-    border-right: solid 3px black;
-}
-.sidebar a {
-    padding: 10px 15px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #fff;
-    display:flex;
+    body {
+      background-image: linear-gradient(to left, green, purple);
     }
-    .sidebar button {
-        padding: 10px 15px;
-        text-decoration: none;
-        font-size: 18px;
-        color: #fff;
-        display:flex;
-        border:#333333;
-        }
-.sidebar a:hover {
-    background-color: #444;
-    display: block;
-    transition: .3s;
-}
-.sidebar header {
-    font-size:40px;
-    display:block;
-    color:#000000;
-}
-.box {
-    color: rgb(0, 0, 0);
-    border-width: 2px;
-    background-color: rgb(218, 222, 33);
+    .img1 {
+      border: 4px solid black;
+    }
+    h1 {
+      display: flexbox block;
+      color: rgb(89, 206, 212);
+      font-size: 60px;
+    }
+    a:link {
+      color: rgb(89, 206, 212);
+    }
+    a:visited {
+      color: rgb(89, 206, 212);
+    }
+    a:hover {
+      color: rgb(64, 127, 195);
+      font-size: 18px;
+      transition: 0.1s;
+    }
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #333333;
+      padding-top: 20px;
+      border-right: solid 3px black;
+    }
+  /* Styles for sidebar links and buttons */
+  .sidebar a, .sidebar button {
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 18px;
+      background-color: #333333; /* Ensure consistent background */
+      color:white;
+      border: none; /* Remove borders if any */
+      display: flex;
+      align-items: left;
+    }
+  
+  
+  /* Hover effects for links and buttons */
+  .sidebar a:hover, .sidebar button:hover {
+      background-color: #444;
+      display: block;
+      transition: 0.3s;
+  }
+  
+  /* Specific styles for close button to override any unwanted inherited properties */
+  .sidebar_close {
     cursor: pointer;
+    background-color: #333333; /* Match the sidebar's background color */
+    color: red; /* Change text color to red */
+    display: block; /* Ensure button takes full width available */
+    margin: 0 auto; /* Center the button horizontally */
 }
-.sidebar_open_button {
-    color: rgb(24, 68, 213);
-    position:fixed;
-    cursor: pointer;
-    left:0;
-    top:50%;
-}
-}
-.sidebar_close_button {
-    cursor: pointer;
-    background-color:#333333;
-}
+  
+    .sidebar header {
+      font-size: 40px;
+      display: block;
+      color: #000000;
+    }
+    .box {
+      color: rgb(0, 0, 0);
+      border-width: 2px;
+      background-color: rgb(218, 222, 33);
+      cursor: pointer;
+    }
+    .sidebar_open_button {
+      color: rgb(24, 68, 213);
+      position: fixed;
+      cursor: pointer;
+      left: 0;
+      top: 50%;
+    }
+  }
