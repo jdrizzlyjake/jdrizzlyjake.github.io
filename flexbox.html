@@ -8,10 +8,19 @@
 <title>Flex Box Practice</title> 
 </head> 
 <body> 
-    <p>
-        Back to
-        <a href="index.html">Home</a>
-    </p>
+    <button class="sidebar_open_button" id="sidebar_open_button" onclick="open_sidebar()">▶</button>
+    <div class="sidebar" style="display:none" id="sidebar">
+        <header>Navigate</header>
+        <div class="sidebar_close">
+            <a href="javascript:javascript:void(0)" onClick="javascript:close_sidebar()">Close</a>
+        </div>
+        <div class="sidebar_links">
+            <a href="index.html">Home</a>
+            <a href="discgolf.html">Disc Golf</a>
+            <a href="rocketleague.html">Rocket League</a>
+            <a href="flexbox.html">Flex Box Practice</a>
+        </div>
+    </div>
     <br><br><br>
     <p>
         <div class="flex-one">
@@ -30,8 +39,6 @@
             <div class="flex-Tests">Tests!</div>
         </div>
     </p>
-</body> 
-</html> 
 <p>
     You said to add a note so here:
 </p>
@@ -58,3 +65,16 @@
 <p>
     More proof I can do stuff and things! It chages the stuff, and affects the things!
 </p>
+<script>
+    function open_sidebar() {
+    document.getElementById("sidebar").style.display = "block";
+    document.getElementById("sidebar_open_button").style.display="none";
+  }
+ 
+  function close_sidebar() {
+    document.getElementById("sidebar").style.display = "none";
+    document.getElementById("sidebar_open_button").style.display = "block";
+  }
+</script>
+</body>
+</html>

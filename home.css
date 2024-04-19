@@ -43,24 +43,18 @@ html {
       display: flex;
       align-items: left;
     }
-  
-  
   /* Hover effects for links and buttons */
-  .sidebar a:hover, .sidebar button:hover {
+  .sidebar_links :hover {
       background-color: #444;
       display: block;
       transition: 0.3s;
   }
   
-  /* Specific styles for close button to override any unwanted inherited properties */
-  .sidebar_close {
-    cursor: pointer;
-    background-color: #333333; /* Match the sidebar's background color */
-    color: red; /* Change text color to red */
-    display: block; /* Ensure button takes full width available */
-    margin: 0 auto; /* Center the button horizontally */
+  .sidebar_close :hover {
+    background-color: #823f3f;
+    display: block;
+    transition: 0.3s;
 }
-  
     .sidebar header {
       font-size: 40px;
       display: block;
@@ -78,5 +72,7 @@ html {
       cursor: pointer;
       left: 0;
       top: 50%;
-    }
+    
   }
+  
+}

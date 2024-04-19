@@ -11,12 +11,18 @@
 <title>Disc Golf</title> 
 </head> 
 <body> 
-    <div class="sidebar">
+    <button class="sidebar_open_button" id="sidebar_open_button" onclick="open_sidebar()">▶</button>
+    <div class="sidebar" style="display:none" id="sidebar">
         <header>Navigate</header>
-        <a href="index.html">Home</a>
-        <a href="discgolf.html">Disc Golf</a>
-        <a href="rocketleague.html">Rocket League</a>
-        <a href="flexbox.html">Flex Box Practice</a>
+        <div class="sidebar_close">
+            <a href="javascript:javascript:void(0)" onClick="javascript:close_sidebar()">Close</a>
+        </div>
+        <div class="sidebar_links">
+            <a href="index.html">Home</a>
+            <a href="discgolf.html">Disc Golf</a>
+            <a href="rocketleague.html">Rocket League</a>
+            <a href="flexbox.html">Flex Box Practice</a>
+        </div>
     </div>
     <p>
         Visit my Official Account on the PDGA Website
@@ -36,5 +42,16 @@
     <p>
         <a href="https://www.facebook.com/centraloregondiscgolfclub/">Central Oregon Disc Golf Club</a>
     </p>
+    <script>
+        function open_sidebar() {
+        document.getElementById("sidebar").style.display = "block";
+        document.getElementById("sidebar_open_button").style.display="none";
+      }
+     
+      function close_sidebar() {
+        document.getElementById("sidebar").style.display = "none";
+        document.getElementById("sidebar_open_button").style.display = "block";
+      }
+    </script>
 </body> 
 </html> 
