@@ -59,6 +59,7 @@ html {
       font-size: 40px;
       display: block;
       color: #000000;
+      
     }
     .box {
       color: rgb(0, 0, 0);
@@ -67,12 +68,14 @@ html {
       cursor: pointer;
     }
     .sidebar_open_button {
-      color: rgb(24, 68, 213);
+      color: rgb(0, 0, 0);
       position: fixed;
       cursor: pointer;
-      left: 0;
-      top: 50%;
-    
+      left:0;
+      top:1%;
+      background-color:transparent;
+      border:none;
+      font-size:30px;
   }
   
 }
