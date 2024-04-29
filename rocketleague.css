@@ -1,6 +1,15 @@
 .unranked {
-    color: gray;
+    color: rgb(148, 147, 146);
+}
+.ranked {
+    color: rgb(34, 255, 0)
 }
 .plat {
     color: rgb(40, 178, 171);
+}
+.gold {
+    color: rgb(229, 223, 31)
+}
+.bronze {
+    color: #b6702a
 }
