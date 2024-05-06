@@ -62,3 +62,15 @@
     flex:1;
     text-align: center;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 24% 24% 24%;
+    grid-template-rows: 290px 290px;
+    gap: 14%;
+  }
+  
+  .card {
+    background-color: peachpuff;
+    border: 2px solid black;
+    
+  }
